@@ -3,7 +3,7 @@ $ModuleList = @(
     @{
         ModuleName = 'MicrosoftTeams'
         ModuleVersion = [version] '4.9.3'
-        MaximumVersion = [version] '7.3.1'
+        MaximumVersion = [version] '7.4.0'
         Purpose = 'Microsoft Teams configuration management'
     },
     @{
@@ -35,13 +35,13 @@ $ModuleList = @(
     @{
         ModuleName = 'Microsoft.PowerApps.PowerShell'
         ModuleVersion = [version] '1.0.0'
-        MaximumVersion = [version] '1.0.44'
+        MaximumVersion = [version] '1.0.45'
         Purpose = 'Power Apps development and management'
     },
     @{
         ModuleName = 'Microsoft.Graph.Authentication'
         ModuleVersion = [version] '2.0.0'
-        MaximumVersion = [version] '2.30.0'
+        MaximumVersion = [version] '2.31.0'
         Purpose = 'Microsoft Graph API authentication'
     },
     @{
@@ -51,4 +51,5 @@ $ModuleList = @(
         Purpose = 'YAML file processing and configuration management'
     }
 )
+
 
